@@ -8,20 +8,20 @@ const socials = [
   {
     icon: Mail,
     label: "Email",
-    value: "henryarunanelson@email.com",
-    href: "mailto:henryarunanelson@email.com",
+    value: "nelson.henry1@icloud.com",
+    href: "mailto:nelson.henry1@icloud.com",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/henry-nelson",
-    href: "https://linkedin.com/in/henry-nelson",
+    value: "linkedin.com/in/henryaruna123",
+    href: "https://linkedin.com/in/henryaruna123",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/henry-nelson",
-    href: "https://github.com/henry-nelson",
+    value: "github.com/henryon-git",
+    href: "https://github.com/henryon-git",
   },
   {
     icon: MapPin,
