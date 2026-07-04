@@ -1,4 +1,4 @@
-import { GraduationCap, MapPin, Briefcase, Target, Users, Zap } from "lucide-react";
+import { GraduationCap, MapPin, Briefcase, Target, Users, Zap, Download } from "lucide-react";
 import FadeSection from "@/components/FadeSection";
 
 const traits = [
@@ -115,6 +115,28 @@ export default function About() {
           ))}
         </div>
       </div>
+
+      {/* CV Download */}
+      <FadeSection delay={300}>
+        <div className="mt-14 glow-border rounded-lg p-8 dark:bg-navy-surface/40 bg-white/60 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div>
+            <h3 className="font-display font-600 dark:text-slate-light text-navy text-lg mb-1">
+              Want to know more?
+            </h3>
+            <p className="dark:text-slate-muted text-navy/60 text-sm">
+              Download my CV for a full overview of my experience and skills.
+            </p>
+          </div>
+          
+           <a
+             href="/Henry_Aruna_Nelson_CV.pdf"
+            download
+            className="inline-flex items-center gap-2 bg-mint text-navy font-display font-600 px-7 py-3.5 rounded text-sm tracking-wide hover:bg-mint-dim transition-colors duration-200 shadow-[0_0_24px_rgba(15,244,198,0.3)] hover:shadow-[0_0_36px_rgba(15,244,198,0.5)] whitespace-nowrap"
+          >
+            <Download className="w-4 h-4" /> Download CV
+          </a>
+        </div>
+      </FadeSection>
     </div>
   );
 }
